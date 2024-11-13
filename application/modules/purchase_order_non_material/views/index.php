@@ -119,7 +119,7 @@ $ENABLE_DELETE  = has_permission('Purchase_Order.Delete');
 								$this->db->from('warehouse_adjustment');
 								$this->db->where('no_ipp', $record->no_po);
 								$this->db->or_where('no_ipp', $record->no_surat);
-								$get_qty_incoming = $this->db->get()->row();
+								$get_qty_incoming = $this->db->get()->row(); 
 
 								$ttl_qty_incoming = $get_ttl_incoming->ttl_qty_incoming;
 
