@@ -182,7 +182,7 @@ $ENABLE_DELETE  = has_permission('Purchase_Order.Delete');
 
 							</td>
 
-						</tr>
+						</tr> 
 				<?php }
 				}  ?>
 			</tbody>
