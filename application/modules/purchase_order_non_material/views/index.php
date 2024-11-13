@@ -173,7 +173,6 @@ $ENABLE_DELETE  = has_permission('Purchase_Order.Delete');
 								if ($record->status == '2') { ?>
 								<a class="btn btn-primary btn-sm" href="<?= base_url('/purchase_order_non_material/PrintH2/' . $record->no_po) ?>" target="_blank" title="Print"><i class="fa fa-print"></i></a>
 								
-								
 								<?php
 								}
 								if ($ENABLE_DELETE) {
